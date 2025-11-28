@@ -1,4 +1,10 @@
 /* Responsive Dark Theme */
+html,
+body {
+  background: #000; /* keep it dark */
+  overscroll-behavior: none;
+}
+
 body {
   margin: 0;
   font-family: "Poppins", sans-serif;
