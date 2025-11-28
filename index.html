@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Spinner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SPINNER</h1>
+        <canvas id="spinner"></canvas>
+        <button id="spinBtn">Spin</button>
+
+        <div class="input-container">
+            <input type="text" id="nameInput" placeholder="Enter a name">
+            <button id="addBtn">Add</button>
+        </div>
+
+        <ul id="nameList"></ul>
+    </div>
+
+    <!-- Modal Message Box -->
+    <div id="messageOverlay" class="hidden"></div>
+    <div id="messageBox" class="hidden">
+        <p id="messageText"></p>
+        <div class="messageBtns">
+            <button id="removeBtn">Remove</button>
+            <button id="keepBtn">Keep</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
